@@ -37,7 +37,7 @@ const App = () => {
           <Toaster />
           <Header />
           <Routes>
-            <Route path="" element={<Portfolio />} />
+            <Route path="/" element={<Portfolio />} />
           </Routes>
           <Footer />
         </>
