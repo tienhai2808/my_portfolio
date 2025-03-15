@@ -6,7 +6,6 @@ import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 
 const Portfolio = () => {
-  console.log("Portfolio component is rendering");
   return (
     <div className='min-h-screen'>
       <About />
