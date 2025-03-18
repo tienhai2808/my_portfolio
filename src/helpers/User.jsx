@@ -1,7 +1,7 @@
 const Info = {
   name: 'Cao Tien Hai',
   stack: ['Data Scientist', 'Data Analyst', 'Font-end Developer', 'Back-end Developer'],
-  bio: 'Hello world!!! See you again aa aa aa aaa aaa aaaaa aaaa aaa aa aaaaaaaa aaaaaaa aaaa aaaaa aa aaa aaa aaa aa a aaaaa aaaa aaa aaa aaaa aa aa aaa aaa aa aaa aaa aaa a aaa aaa aaaaa aaa aaa aa aa aa aa a aa aa aa aa aaaa aaaa'
+  bio: 'I’m a tech and data enthusiast, passionate about uncovering insights and solving complex problems. I enjoy diving into new challenges, experimenting with creative ideas, and learning every day. Great to connect with you!'
 } 
 
 const SkillInfo = [
