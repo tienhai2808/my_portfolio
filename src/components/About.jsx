@@ -46,7 +46,7 @@ const About = () => {
           </div>
           <div className='my-8 lg-mx:my-1 text-textColor text-justify w-[90%] text-xl font-semibold xl-mx:text-[18px] lg-mx:text-base xs-mx:text-[15px]'>{Info.bio}</div>
           <div className='flex flex-start gap-5'>
-            <Button onClick={open} className='!text-bgColor' size={btn} variant='filled' color='#8cf8f8'>Check Resume</Button>
+            <Button onClick={() => open()} className='!text-bgColor' size={btn} variant='filled' color='#8cf8f8'>Check Resume</Button>
             <Button className='!text-primaryColor' size={btn} variant='outline' color='#8cf8f8'
             rightSection={<IconDownload className='w-[20px] h-[20px] md-mx:h-[18px] md-mx:w-[18px] xs-mx:h-[16px] xs-mx:w-[16px]'/>}
             component='a' href='my_resume.pdf' download={Info.name}>
