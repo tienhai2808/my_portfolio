@@ -26,7 +26,7 @@ const About = () => {
         data-aos="fade-up">
         <Particles
           className="absolute inset-0 -z-20"
-          quantity={1000}
+          quantity={500}
           ease={80}
           color='#8cf8f8'
           vx={.1}
@@ -64,7 +64,6 @@ const About = () => {
             ) : (
               <Button onClick={() => open()} className='!text-bgColor' size={btn} variant='filled' color='#8cf8f8'>Check Resume</Button>
             )}
-            {/* <Button onClick={() => open()} className='!text-bgColor' size={btn} variant='filled' color='#8cf8f8'>Check Resume</Button> */}
             <Button className='!text-primaryColor' size={btn} variant='outline' color='#8cf8f8'
               rightSection={<IconDownload className='w-[20px] h-[20px] md-mx:h-[18px] md-mx:w-[18px] xs-mx:h-[16px] xs-mx:w-[16px]' />}
               component='a' href='my_resume.pdf' download={Info.name}>
