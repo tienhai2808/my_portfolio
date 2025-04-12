@@ -3,7 +3,7 @@ import { IconBrandGithub, IconBrandLinkedin, IconBrandInstagram, IconBrandFacebo
 const socialLinks = [{link: 'https://github.com/tienhai2808', icon: IconBrandGithub},
   {link: 'https://linkedin.com/in/tienhai2808/', icon: IconBrandLinkedin},
   {link: 'https://facebook.com/hai.tan.288/', icon: IconBrandFacebook},
-  {link: 'https://instagram.com/_thari08/', icon: IconBrandInstagram},
+  {link: 'https://www.instagram.com/haict_08/', icon: IconBrandInstagram},
 ]
 const socialIcons = (isFooter) => socialLinks.map((link) => {
   return (

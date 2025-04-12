@@ -53,7 +53,7 @@ const Contact = () => {
   return (
     <div className='px-16 mx-20 pt-10 font-mono py-5 bs-mx:mx-5 md-mx:mx-0 xs-mx:px-3' id='contact'>
       <h1 className='text-4xl sm-mx:text-3xl xs-mx:text-2xl mb-5 font-bold text-white'>
-        <span className='text-primaryColor'>03.&nbsp;</span>Contact
+        <span className='text-primaryColor'>04.&nbsp;</span>Contact
       </h1>
       <div className='shadow-[0_0_10px_0_#8cf8f8] flex m-auto flex-col gap-6 w-[70%] lg-mx:w-[78%] bs-mx:w-[85%] xs-mx:w-[90%] border border-primaryColor p-8 md-mx:p-6 sm-mx:p-4 rounded-3xl'
         data-aos='flip-left'>
