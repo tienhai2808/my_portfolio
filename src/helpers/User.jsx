@@ -59,7 +59,7 @@ const ProjectInfo = [
     desc: "This application allowing users to ask legal questions and receive answers based on relevant legal articles. It features user authentication, a question submission interface, and displays past Q&A history. This service leverages Retrieval-Augmented Generation (RAG) to answer questions related to Vietnamese civil law. It uses a vector database populated with legal text extracted from official documents and a generative AI model (Google Gemini) to synthesize answers based on retrieved relevant laws.",
     image: "civillawai_prj.png",
     live: false,
-    technologies: ["Python", "ReactJS", "Tailwind", "FastAPI", "Supabase", "Langchain"],
+    technologies: ["Python", "ReactJS", "TailwindCSS", "FastAPI", "Supabase", "Langchain"],
     link: null,
     github: null,
     feCode: "https://github.com/tienhai2808/civillaw_ai-fe",

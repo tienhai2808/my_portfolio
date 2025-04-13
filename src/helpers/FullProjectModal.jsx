@@ -53,9 +53,10 @@ const FullProjectModal = (props) => {
         <Modal.Body className="!bg-bgColor xs-mx:!p-2 !pt-2 !border-primaryColor  !border-2 !border-t-0 !rounded-bl-3xl !rounded-br-3xl">
           <div className="aspect-video w-full overflow-hidden rounded-xl shadow-[0_0_5px_0_#8cf8f8]">
             <Image
-              className="!rounded-xl h-full w-full object-cover"
+              className="!rounded-xl h-full w-full"
               src={props.image}
               alt={props.image}
+              fit="cover"
             />
           </div>
           <div className="flex flex-wrap gap-3 xs-mx:gap-2 my-3">
