@@ -14,7 +14,7 @@ const ProjectCard = (props) => {
   return (
     <div
       className="w-[32%] lg-mx:w-[46%] md-mx:w-[48%] sm-mx:w-[90%] xs-mx:w-[90%]"
-      data-aos="flip-down"
+      data-aos="flip-up"
     >
       <Card
         onClick={open}
