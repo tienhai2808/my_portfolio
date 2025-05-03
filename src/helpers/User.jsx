@@ -23,7 +23,7 @@ const SkillInfo = [
   },
   {
     title: 'Languages',
-    skills: ['Python', 'JavaScript', 'TypeScript', 'GO', 'SQL']
+    skills: ['GO', 'JavaScript', 'TypeScript', 'Python', 'SQL']
   },
   {
     title: 'Tools',

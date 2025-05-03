@@ -34,6 +34,11 @@ const slugs = [
   "go",
   "pytorch",
   "tensorflow",
+  "bun",
+  "rabbitmq",
+  "nestjs",
+  "fastapi",
+  "mysql"
 ];
 
 export { slugs };
