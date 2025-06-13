@@ -19,11 +19,11 @@ const SkillInfo = [
   },
   {
     title: 'Back-end',
-    skills: ['ExpressJS', 'NestJS', 'Django', 'FastAPI', 'MySQL', 'PostgreSQL', 'MongoDB', 'Redis']
+    skills: ['ExpressJS', 'NestJS', 'Django', 'FastAPI', 'SpringBoot', 'MySQL', 'PostgreSQL', 'MongoDB', 'Redis']
   },
   {
     title: 'Languages',
-    skills: ['GO', 'JavaScript', 'TypeScript', 'Python', 'SQL']
+    skills: ['GO', 'JavaScript', 'TypeScript', 'Python', 'Java', 'SQL']
   },
   {
     title: 'Tools',
