@@ -1,6 +1,6 @@
 const Info = {
   name: 'Cao Tien Hai',
-  stack: ['Data Scientist', 'Data Analyst', 'Font-end Developer', 'Back-end Developer'],
+  stack: ['Back-end Developer', 'Data Analyst', 'Data Scientist', 'Front-end Developer'],
   bio: 'I’m a tech and data enthusiast, passionate about uncovering insights and solving complex problems. I enjoy diving into new challenges, experimenting with creative ideas, and learning every day. Great to connect with you!'
 }
 
@@ -19,7 +19,7 @@ const SkillInfo = [
   },
   {
     title: 'Back-end',
-    skills: ['ExpressJS', 'NestJS', 'Django', 'FastAPI', 'SpringBoot', 'MySQL', 'PostgreSQL', 'MongoDB', 'Redis']
+    skills: ['ExpressJS', 'NestJS', 'Django', 'FastAPI', 'Gin', 'SpringBoot', 'MySQL', 'PostgreSQL', 'MongoDB', 'Redis', 'RabbitMQ']
   },
   {
     title: 'Languages',
@@ -97,6 +97,17 @@ const ProjectInfo = [
     github: "https://github.com/tienhai2808/simple_data_mining",
     feCode: null,
     beCode: null
+  },
+  {
+    title: "Icondenim Clone",
+    desc: "This is an e-commerce website project designed to simulate the website of the famous men's fashion store Icondenim. The project is built using Spring Boot (Java) framework, PostgreSQL database, Redis caching, RabbitMQ message queue and SMTP server for sending emails.",
+    image: "icondenim_prj.png",
+    live: false,
+    technologies: ["SpringBoot", "Redis", "RabbitMQ", "PostgreSQL", "Java", "SMTP"],
+    link: null,
+    github: null,
+    feCode: "https://github.com/IcondenimClone/icondenim-fe",
+    beCode: "https://github.com/tienhai2808/icondenim-be"
   }
 ]
 
