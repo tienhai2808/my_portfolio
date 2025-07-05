@@ -1,5 +1,5 @@
 const Info = {
-  name: 'Cao Tien Hai',
+  name: 'Tien Hai Cao',
   stack: ['Back-end Developer', 'Data Analyst', 'Data Scientist', 'Front-end Developer'],
   bio: 'I’m a tech and data enthusiast, passionate about uncovering insights and solving complex problems. I enjoy diving into new challenges, experimenting with creative ideas, and learning every day. Great to connect with you!'
 }
