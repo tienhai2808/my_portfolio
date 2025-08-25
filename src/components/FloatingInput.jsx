@@ -1,5 +1,3 @@
-import React from 'react'
-
 const FloatingInput = (props) => {
   return (
     <div>

@@ -1,4 +1,3 @@
-import React from 'react'
 import { ProjectInfo } from '../helpers/User';
 import ProjectCard from './ProjectCard';
 
@@ -8,7 +7,7 @@ const Projects = () => {
       <h1 className='text-4xl sm-mx:text-3xl xs-mx:text-2xl mb-5 font-bold text-white'>
         <span className='text-primaryColor'>03.&nbsp;</span>Projects
       </h1>
-      <div className='flex flex-wrap gap-5 justify-around md-mx:justify-center sm-mx:justify-center'>
+      <div className='flex flex-wrap gap-5 justify-start md-mx:justify-center sm-mx:justify-center'>
         {
           ProjectInfo.map((project, index) => (
             <ProjectCard 

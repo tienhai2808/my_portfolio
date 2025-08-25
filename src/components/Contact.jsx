@@ -1,6 +1,6 @@
 import { Button, useMatches } from '@mantine/core';
 import FloatingInput from './FloatingInput';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { IconBrandTelegram, IconTopologyStar3 } from '@tabler/icons-react';
 import { validateForm } from './Validation';
 import { collection, addDoc } from 'firebase/firestore';

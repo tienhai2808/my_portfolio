@@ -69,9 +69,9 @@ const ProjectInfo = [
     title: "Choose Right Cinema",
     desc: "This Node.js/Express service aims to help users find the best cinema to watch a specific film based on their location, desired date, proximity, and showtime availability. Scraping cinema, film, and showtime information from external sources. Persisting scraped data in a MongoDB database and utilizing Redis for caching. Leveraging geospatial queries, real-time routing information (OSRM), dynamic showtime scraping, and AI analysis (Google Gemini) to suggest the most suitable cinema.",
     image: "crc_prj.png",
-    live: false,
+    live: true,
     technologies: ["ExpressJS", "ReactJS", "MongoDB", "Redis", "Puppeteer"],
-    link: null,
+    link: "https://chondungrap.onrender.com/",
     github: null,
     feCode: "https://github.com/tienhai2808/choose_right_cinema-fe",
     beCode: "https://github.com/tienhai2808/choose_right_cinema-be"
@@ -108,6 +108,17 @@ const ProjectInfo = [
     github: null,
     feCode: "https://github.com/IcondenimClone/icondenim-fe",
     beCode: "https://github.com/tienhai2808/icondenim-be"
+  },
+  {
+    title: "E-commerce Microservice",
+    desc: "A scalable e-commerce platform designed with a microservices architecture, using gRPC for high-performance inter-service communication. Built with a polyglot stack including Go, TypeScript, and Java, and integrating both SQL and NoSQL databases alongside other modern technologies.",
+    image: "ecom-microservice_prj.png",
+    live: false,
+    technologies: ["Go", "Gin", "TypeScript", "SpringBoot", "Redis", "RabbitMQ", "PostgreSQL", "Java", "SMTP", "gRPC", "MongoDB"],
+    link: null,
+    github: null,
+    feCode: "https://github.com/SomeHowMicroservice/shm-fe",
+    beCode: "https://github.com/SomeHowMicroservice/shm-be"
   }
 ]
 

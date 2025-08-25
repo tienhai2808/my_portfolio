@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { IconHexagonLetterH } from '@tabler/icons-react'
 import SideBar from './SideBar'
 import { navLinks } from '../helpers/NavLinks'

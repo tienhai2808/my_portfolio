@@ -1,4 +1,3 @@
-import React from 'react'
 import { Info } from '../helpers/User'
 import TypeWrite from 'typewriter-effect'
 import { Button, useMatches } from '@mantine/core'

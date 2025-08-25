@@ -1,4 +1,3 @@
-import React from 'react'
 import Mail from '../components/Mail'
 import Social from '../components/Social'
 import About from '../components/About'
