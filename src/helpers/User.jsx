@@ -72,9 +72,9 @@ const ProjectInfo = [
     live: true,
     technologies: ["ExpressJS", "ReactJS", "MongoDB", "Redis", "Puppeteer"],
     link: "https://chondungrap.onrender.com/",
-    github: null,
-    feCode: "https://github.com/tienhai2808/choose_right_cinema-fe",
-    beCode: "https://github.com/tienhai2808/choose_right_cinema-be"
+    github: "https://github.com/tienhai2808/choose_right_cinema",
+    feCode: null,
+    beCode: null
   },
   {
     title: "Virgo Chat",
