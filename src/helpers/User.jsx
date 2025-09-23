@@ -15,11 +15,11 @@ const SkillInfo = [
   },
   {
     title: 'Front-end',
-    skills: ['HTML', 'CSS', 'JavaScript', 'ReactJS', 'TailwindCSS', 'Bootstrap']
+    skills: ['HTML', 'CSS', 'JavaScript', 'ReactJS', 'TailwindCSS', 'Bootstrap', 'NextJS']
   },
   {
     title: 'Back-end',
-    skills: ['ExpressJS', 'NestJS', 'Django', 'FastAPI', 'Gin', 'SpringBoot', 'MySQL', 'PostgreSQL', 'MongoDB', 'Redis', 'RabbitMQ']
+    skills: ['ExpressJS', 'NestJS', 'Django', 'FastAPI', 'Gin', 'Fiber', 'SpringBoot', 'MySQL', 'PostgreSQL', 'MongoDB', 'Redis', 'RabbitMQ']
   },
   {
     title: 'Languages',
