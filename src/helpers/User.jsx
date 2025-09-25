@@ -114,7 +114,7 @@ const ProjectInfo = [
     desc: "A scalable e-commerce platform designed with a microservices architecture, using gRPC for high-performance inter-service communication. Built with a polyglot stack including Go, TypeScript, and Java, and integrating both SQL and NoSQL databases alongside other modern technologies.",
     image: "ecom-microservice_prj.png",
     live: false,
-    technologies: ["Go", "Gin", "TypeScript", "SpringBoot", "Redis", "RabbitMQ", "PostgreSQL", "Java", "SMTP", "gRPC", "MongoDB"],
+    technologies: ["Go", "Gin", "TypeScript", "NestJS", "SpringBoot", "Redis", "RabbitMQ", "PostgreSQL", "Java", "SMTP", "gRPC", "MongoDB"],
     link: null,
     github: null,
     feCode: "https://github.com/SomeHowMicroservice/shm-fe",

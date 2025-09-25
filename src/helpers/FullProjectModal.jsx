@@ -5,7 +5,6 @@ const FullProjectModal = (props) => {
   const techno = useMatches({ xs: "md", sm: "md", md: "lg", bs: "xl" });
   const btn = useMatches({ xs: "xs", sm: "sm", md: "md", lg: "lg" });
 
-  // Xác định có cả FE và BE không
   const hasBothRepos = props.feCode && props.beCode;
 
   return (
