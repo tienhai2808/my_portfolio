@@ -1,4 +1,3 @@
-import React from 'react'
 import { Modal, ScrollArea, Tooltip } from "@mantine/core";
 import { Document, Page } from 'react-pdf'
 import { ActionIcon } from '@mantine/core';

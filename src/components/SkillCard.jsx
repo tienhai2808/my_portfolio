@@ -1,4 +1,3 @@
-import React from 'react'
 import { SkillBadge } from '../helpers/SkillBadge'
 
 const SkillCard = (props) => {

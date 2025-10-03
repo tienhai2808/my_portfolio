@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useMemo, useState } from "react";
 import { useTheme } from "next-themes";
 import {
@@ -31,11 +29,10 @@ const cloudProps = {
     outlineColour: "#0000",
     maxSpeed: 0.07,
     minSpeed: 0.05,
-    // dragControl: false,
   },
 };
 
-const renderCustomIcon = (icon, theme, imageArray) => {
+const renderCustomIcon = (icon, theme) => {
   const bgHex = theme === "light" ? "#f3f2ef" : "#080510";
   const fallbackHex = theme === "light" ? "#6e6e73" : "#ffffff";
   const minContrastRatio = theme === "dark" ? 2 : 1.2;
@@ -61,7 +58,6 @@ const IconCloud = ({ iconSlugs = [], imageArray }) => {
 
   useEffect(() => {
     if (iconSlugs.length > 0) {
-      // Check if iconSlugs is not empty
       fetchSimpleIcons({ slugs: iconSlugs }).then(setData);
     }
   }, [iconSlugs]);

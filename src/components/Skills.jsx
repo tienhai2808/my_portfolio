@@ -1,4 +1,3 @@
-import React from 'react'
 import { SkillInfo } from '../helpers/User'
 import SkillCard from './SkillCard'
 

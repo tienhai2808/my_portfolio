@@ -1,4 +1,3 @@
-import React from 'react'
 import { Info } from '../helpers/User'
 import { socialIcons } from '../helpers/SocialLinks'
 

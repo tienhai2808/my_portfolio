@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Mail = () => {
   return (
     <div className='xs-mx:hidden flex items-center gap-11 text-textColor fixed bottom-44 -right-[10.4rem] rotate-90'>

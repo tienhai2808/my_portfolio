@@ -2,7 +2,6 @@ const slugs = [
   "typescript",
   "javascript",
   "dart",
-  "java",
   "react",
   "flutter",
   "android",
@@ -38,7 +37,9 @@ const slugs = [
   "rabbitmq",
   "nestjs",
   "fastapi",
-  "mysql"
+  "mysql",
+  "java",
+  "spring",
 ];
 
 export { slugs };
