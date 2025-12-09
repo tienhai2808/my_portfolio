@@ -40,6 +40,8 @@ const slugs = [
   "mysql",
   "java",
   "spring",
+  "aws",
+  "googlecloud",
 ];
 
 export { slugs };

@@ -28,42 +28,46 @@ const SkillInfo = [
   {
     title: 'Tools',
     skills: ['GitHub', 'Jupyter', 'Tableau', 'PowerBI', 'WordPress', 'Docker']
+  },
+  {
+    title: 'Cloud',
+    skills: ['AWS', 'Google Cloud']
   }
 ]
 
 const ProjectInfo = [
   {
-    title: "Hybrid Recommender System",
-    desc: "The system aims to recommend films to users based on the content similarity of films they have liked or viewed previously. It utilizes a content-based filtering approach, specifically employing the Term Frequency-Inverse Document Frequency (TF-IDF) vectorization technique combined with Cosine Similarity to identify similar films.",
-    image: "hrs_prj.png",
+    title: "Icondenim Clone",
+    desc: "This is an e-commerce website project designed to simulate the website of the famous men's fashion store Icondenim. The project is built using Spring Boot (Java) framework, PostgreSQL database, Redis caching, RabbitMQ message queue and SMTP server for sending emails.",
+    image: "icondenim_prj.png",
     live: false,
-    technologies: ["Python", "Scikit-learn", "Jupyter"],
-    link: null,
-    github: "https://github.com/tienhai2808/film_recommendation_system",
-    feCode: null,
-    beCode: null
-  },
-  {
-    title: "VNExpress Clone",
-    desc: "This project is a Content Management System (CMS) designed to simulate the workflow of a major online news portal like VnExpress. It's built using the Django framework (Python) and employs Server-Side Rendering (SSR).",
-    image: "vnx_prj.png",
-    live: false,
-    technologies: ["Python", "Django", "JavaScript", "HTML", "CSS", "SQLite"],
-    link: null,
-    github: "https://github.com/tienhai2808/cms",
-    feCode: null,
-    beCode: null
-  },
-  {
-    title: "Civil Law Chatbot",
-    desc: "This application allowing users to ask legal questions and receive answers based on relevant legal articles. It features user authentication, a question submission interface, and displays past Q&A history. This service leverages Retrieval-Augmented Generation (RAG) to answer questions related to Vietnamese civil law. It uses a vector database populated with legal text extracted from official documents and a generative AI model (Google Gemini) to synthesize answers based on retrieved relevant laws.",
-    image: "civillawai_prj.png",
-    live: false,
-    technologies: ["Python", "ReactJS", "TailwindCSS", "FastAPI", "Supabase", "Langchain"],
+    technologies: ["SpringBoot", "Redis", "RabbitMQ", "PostgreSQL", "Java", "SMTP"],
     link: null,
     github: null,
-    feCode: "https://github.com/tienhai2808/civillaw_ai-fe",
-    beCode: "https://github.com/tienhai2808/civillaw_ai-be"
+    feCode: "https://github.com/IcondenimClone/icondenim-fe",
+    beCode: "https://github.com/tienhai2808/icondenim-be"
+  },
+  {
+    title: "E-commerce Microservice",
+    desc: "A scalable e-commerce platform designed with a microservices architecture, using gRPC for high-performance inter-service communication. Built with a polyglot stack including Go, TypeScript, and Java, and integrating both SQL and NoSQL databases alongside other modern technologies.",
+    image: "ecom-microservice_prj.png",
+    live: false,
+    technologies: ["Go", "Gin", "TypeScript", "NestJS", "SpringBoot", "Redis", "RabbitMQ", "PostgreSQL", "Java", "SMTP", "gRPC", "MongoDB"],
+    link: null,
+    github: null,
+    feCode: "https://github.com/SomeHowMicroservice/shm-fe",
+    beCode: "https://github.com/SomeHowMicroservice/shm-be"
+  },
+  {
+    title: "Instay",
+    desc: "This is the entire source code of the project including Frontend, Backend and Deployment. The system uses WebSocket and Server-Sent Events simultaneously to handle realtime tasks and deploy on EC2. The project is a hotel management system and provides services to customers during in-stay.",
+    image: "instay_prj.png",
+    live: false,
+    technologies: ["Go", "TypeScript", "S3", "Gin", "NestJS", "Redis", "RabbitMQ", "PostgreSQL", "SMTP", "IMAP"],
+    link: null,
+    github: "https://github.com/InstaySystem/is-fullstack",
+    feCode: null,
+    beCode: null
   },
   {
     title: "Choose Right Cinema",
@@ -99,26 +103,37 @@ const ProjectInfo = [
     beCode: null
   },
   {
-    title: "Icondenim Clone",
-    desc: "This is an e-commerce website project designed to simulate the website of the famous men's fashion store Icondenim. The project is built using Spring Boot (Java) framework, PostgreSQL database, Redis caching, RabbitMQ message queue and SMTP server for sending emails.",
-    image: "icondenim_prj.png",
+    title: "Hybrid Recommender System",
+    desc: "The system aims to recommend films to users based on the content similarity of films they have liked or viewed previously. It utilizes a content-based filtering approach, specifically employing the Term Frequency-Inverse Document Frequency (TF-IDF) vectorization technique combined with Cosine Similarity to identify similar films.",
+    image: "hrs_prj.png",
     live: false,
-    technologies: ["SpringBoot", "Redis", "RabbitMQ", "PostgreSQL", "Java", "SMTP"],
+    technologies: ["Python", "Scikit-learn", "Jupyter"],
     link: null,
-    github: null,
-    feCode: "https://github.com/IcondenimClone/icondenim-fe",
-    beCode: "https://github.com/tienhai2808/icondenim-be"
+    github: "https://github.com/tienhai2808/film_recommendation_system",
+    feCode: null,
+    beCode: null
   },
   {
-    title: "E-commerce Microservice",
-    desc: "A scalable e-commerce platform designed with a microservices architecture, using gRPC for high-performance inter-service communication. Built with a polyglot stack including Go, TypeScript, and Java, and integrating both SQL and NoSQL databases alongside other modern technologies.",
-    image: "ecom-microservice_prj.png",
+    title: "VNExpress Clone",
+    desc: "This project is a Content Management System (CMS) designed to simulate the workflow of a major online news portal like VnExpress. It's built using the Django framework (Python) and employs Server-Side Rendering (SSR).",
+    image: "vnx_prj.png",
     live: false,
-    technologies: ["Go", "Gin", "TypeScript", "NestJS", "SpringBoot", "Redis", "RabbitMQ", "PostgreSQL", "Java", "SMTP", "gRPC", "MongoDB"],
+    technologies: ["Python", "Django", "JavaScript", "HTML", "CSS", "SQLite"],
+    link: null,
+    github: "https://github.com/tienhai2808/cms",
+    feCode: null,
+    beCode: null
+  },
+  {
+    title: "Civil Law Chatbot",
+    desc: "This application allowing users to ask legal questions and receive answers based on relevant legal articles. It features user authentication, a question submission interface, and displays past Q&A history. This service leverages Retrieval-Augmented Generation (RAG) to answer questions related to Vietnamese civil law. It uses a vector database populated with legal text extracted from official documents and a generative AI model (Google Gemini) to synthesize answers based on retrieved relevant laws.",
+    image: "civillawai_prj.png",
+    live: false,
+    technologies: ["Python", "ReactJS", "TailwindCSS", "FastAPI", "Supabase", "Langchain"],
     link: null,
     github: null,
-    feCode: "https://github.com/SomeHowMicroservice/shm-fe",
-    beCode: "https://github.com/SomeHowMicroservice/shm-be"
+    feCode: "https://github.com/tienhai2808/civillaw_ai-fe",
+    beCode: "https://github.com/tienhai2808/civillaw_ai-be"
   }
 ]
 
