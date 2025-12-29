@@ -15,7 +15,7 @@ const SkillInfo = [
   },
   {
     title: 'Front-end',
-    skills: ['HTML', 'CSS', 'JavaScript', 'ReactJS', 'TailwindCSS', 'Bootstrap', 'NextJS']
+    skills: ['HTML', 'CSS', 'JavaScript', 'ReactJS', 'TailwindCSS', 'Bootstrap', 'Next.js']
   },
   {
     title: 'Back-end',
@@ -63,9 +63,20 @@ const ProjectInfo = [
     desc: "This is the entire source code of the project including Frontend, Backend and Deployment. The system uses WebSocket and Server-Sent Events simultaneously to handle realtime tasks and deploy on EC2. The project is a hotel management system and provides services to customers during in-stay.",
     image: "instay_prj.png",
     live: false,
-    technologies: ["Go", "TypeScript", "S3", "Gin", "NestJS", "Redis", "RabbitMQ", "PostgreSQL", "SMTP", "IMAP"],
+    technologies: ["Go", "TypeScript", "Docker", "S3", "Gin", "Next.js", "Redis", "RabbitMQ", "PostgreSQL", "SMTP", "IMAP"],
     link: null,
     github: "https://github.com/InstaySystem/is-fullstack",
+    feCode: null,
+    beCode: null
+  },
+  {
+    title: "Chon An Yen",
+    desc: "This is a full-stack web application for anonymous sharing and reading of thoughts, confessions, and stories. It is designed to provide a safe, tranquil space for users to express themselves and connect with others without revealing their identity.",
+    image: "af_prj.png",
+    live: false,
+    technologies: ["Next.js", "Fiber", "Docker", "Redis", "MongoDB", "Go", "TypeScript"],
+    link: null,
+    github: "https://github.com/tienhai2808/anonymous_forest",
     feCode: null,
     beCode: null
   },
@@ -85,11 +96,33 @@ const ProjectInfo = [
     desc: "Virgo Chat is Node.js with key features including user authentication (including Google OAuth and Face ID), real-time messaging, group/private chat, notifications, user relationships, calls, and an admin dashboard.",
     image: "virgochat_prj.png",
     live: false,
-    technologies: ["NextJS", "ExpressJS", "MongoDB", "SocketIO", "TailwindCSS", "MongoDB", "FaceapiJS"],
+    technologies: ["Next.js", "ExpressJS", "MongoDB", "SocketIO", "TailwindCSS", "MongoDB", "FaceapiJS"],
     link: null,
     github: null,
     feCode: "https://github.com/VirgoChart/virgo_chat-FE",
     beCode: "https://github.com/tienhai2808/virgo_chat-be"
+  },
+  {
+    title: "Civil Law Chatbot",
+    desc: "This application allowing users to ask legal questions and receive answers based on relevant legal articles. It features user authentication, a question submission interface, and displays past Q&A history. This service leverages Retrieval-Augmented Generation (RAG) to answer questions related to Vietnamese civil law. It uses a vector database populated with legal text extracted from official documents and a generative AI model (Google Gemini) to synthesize answers based on retrieved relevant laws.",
+    image: "civillawai_prj.png",
+    live: false,
+    technologies: ["Python", "ReactJS", "TailwindCSS", "FastAPI", "Supabase", "Langchain"],
+    link: null,
+    github: null,
+    feCode: "https://github.com/tienhai2808/civillaw_ai-fe",
+    beCode: "https://github.com/tienhai2808/civillaw_ai-be"
+  },
+  {
+    title: "VNExpress Clone",
+    desc: "This project is a Content Management System (CMS) designed to simulate the workflow of a major online news portal like VnExpress. It's built using the Django framework (Python) and employs Server-Side Rendering (SSR).",
+    image: "vnx_prj.png",
+    live: false,
+    technologies: ["Python", "Django", "JavaScript", "HTML", "CSS", "SQLite"],
+    link: null,
+    github: "https://github.com/tienhai2808/cms",
+    feCode: null,
+    beCode: null
   },
   {
     title: "Simple Data Mining",
@@ -112,28 +145,6 @@ const ProjectInfo = [
     github: "https://github.com/tienhai2808/film_recommendation_system",
     feCode: null,
     beCode: null
-  },
-  {
-    title: "VNExpress Clone",
-    desc: "This project is a Content Management System (CMS) designed to simulate the workflow of a major online news portal like VnExpress. It's built using the Django framework (Python) and employs Server-Side Rendering (SSR).",
-    image: "vnx_prj.png",
-    live: false,
-    technologies: ["Python", "Django", "JavaScript", "HTML", "CSS", "SQLite"],
-    link: null,
-    github: "https://github.com/tienhai2808/cms",
-    feCode: null,
-    beCode: null
-  },
-  {
-    title: "Civil Law Chatbot",
-    desc: "This application allowing users to ask legal questions and receive answers based on relevant legal articles. It features user authentication, a question submission interface, and displays past Q&A history. This service leverages Retrieval-Augmented Generation (RAG) to answer questions related to Vietnamese civil law. It uses a vector database populated with legal text extracted from official documents and a generative AI model (Google Gemini) to synthesize answers based on retrieved relevant laws.",
-    image: "civillawai_prj.png",
-    live: false,
-    technologies: ["Python", "ReactJS", "TailwindCSS", "FastAPI", "Supabase", "Langchain"],
-    link: null,
-    github: null,
-    feCode: "https://github.com/tienhai2808/civillaw_ai-fe",
-    beCode: "https://github.com/tienhai2808/civillaw_ai-be"
   }
 ]
 
