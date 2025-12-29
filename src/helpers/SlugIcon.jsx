@@ -42,6 +42,8 @@ const slugs = [
   "spring",
   "aws",
   "googlecloud",
+  "ubuntu",
+  "linux",
 ];
 
 export { slugs };
