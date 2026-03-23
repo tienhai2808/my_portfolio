@@ -27,11 +27,11 @@ const SkillInfo = [
   },
   {
     title: 'Tools',
-    skills: ['GitHub', 'Jupyter', 'Tableau', 'PowerBI', 'WordPress', 'Figma']
+    skills: ['GitHub', 'Jupyter', 'Tableau', 'PowerBI', 'WordPress', 'Figma', 'Jira']
   },
   {
     title: 'DevOps',
-    skills: ['Docker', 'Ubuntu', 'AWS', 'GCP']
+    skills: ['Docker', 'Ubuntu', 'AWS', 'GCP', 'GHA']
   }
 ]
 
