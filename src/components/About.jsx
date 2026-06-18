@@ -72,7 +72,11 @@ const About = () => {
         </div>
         <div className='flex justify-center items-center h-fit w-fit mr-20 rounded-full xl-mx:mr-10 bs-mx:mr-0 bs-mx:w-full'>
           <NeonGradientCard className="h-[325px] w-[325px] lg-mx:w-64 lg-mx:h-64 sm-mx:w-56 sm-mx:h-56 xsm-mx:h-44 xsm-mx:w-44 max-w-sm items-center justify-center text-center">
-            <img className='w-full h-full rounded-full' src="profile_photo.jpg" alt="profilePhoto" />
+            <img
+              className='block h-full w-full rounded-full object-cover object-center'
+              src="profile_photo.jpg"
+              alt="profilePhoto"
+            />
           </NeonGradientCard>
         </div>
       </div>
