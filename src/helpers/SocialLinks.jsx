@@ -1,9 +1,9 @@
 import { IconBrandGithub, IconBrandLinkedin, IconBrandInstagram, IconBrandFacebook } from '@tabler/icons-react'
 
 const socialLinks = [{ link: 'https://github.com/tienhai2808', icon: IconBrandGithub },
-{ link: 'https://linkedin.com/in/tienhai2808/', icon: IconBrandLinkedin },
-{ link: 'https://facebook.com/tienhai2808/', icon: IconBrandFacebook },
-{ link: 'https://www.instagram.com/haict_08/', icon: IconBrandInstagram },
+{ link: 'https://linkedin.com/in/tienhai2808', icon: IconBrandLinkedin },
+{ link: 'https://facebook.com/tienhai2808', icon: IconBrandFacebook },
+{ link: 'https://instagram.com/tienhier', icon: IconBrandInstagram },
 ]
 const socialIcons = (isFooter) => socialLinks.map((link) => {
   const Icon = link.icon;

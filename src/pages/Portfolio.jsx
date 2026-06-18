@@ -4,6 +4,7 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import Projects from '../components/Projects'
+import Experience from '../components/Experience'
 
 const Portfolio = () => {
   return (
@@ -11,6 +12,7 @@ const Portfolio = () => {
       <About />
       <Skills />
       <Projects />
+      <Experience />
       <Contact />
       <Mail />
       <Social />

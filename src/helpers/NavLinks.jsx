@@ -1,6 +1,6 @@
 import { Link } from 'react-scroll';
 
-const links = ['about', 'skills', 'projects', 'contact']
+const links = ['about', 'skills', 'projects', 'experience', 'contact']
 const navLinks = (col, clicked) => {
   const handleClick = () => {
     if (clicked) {
