@@ -65,7 +65,7 @@ const Experience = () => {
       id="experience"
     >
       <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl mb-5 font-bold text-white">
-        <span className="text-primaryColor">04.&nbsp;</span>Experience
+        <span className="text-primaryColor">05.&nbsp;</span>Experience
       </h1>
 
       <div className="flex justify-center items-center">

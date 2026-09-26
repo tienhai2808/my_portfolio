@@ -286,4 +286,68 @@ const ExperienceInfo = [
   },
 ];
 
-export { Info, SkillInfo, ProjectInfo, ExperienceInfo };
+const ServiceInfo = [
+  {
+    id: "lowcode-nocode-web",
+    category: "Visual Builders & CMS",
+    title: "Low-Code / No-Code & CMS Web Development",
+    badge: "Fast Launch (3-7 Days)",
+    bestFor: "Brands, online stores, corporate sites & fast MVP launches",
+    desc: "Rapid website and online store development using modern drag-and-drop builders and CMS platforms. Perfect for clients who want a polished, high-converting presence that they can easily update, edit, and drag-and-drop themselves without writing code.",
+    features: [
+      "Intuitive visual drag-and-drop management (easily edit banners, products & text)",
+      "Mobile-first responsive design & Google SEO optimized from day one",
+      "Full payment gateway (Stripe, PayPal, VNPay, QR Pay) & automated shipping setup",
+      "Fast turnaround (3-7 days) with complete 1-on-1 walkthrough and handover"
+    ],
+    platforms: ["WordPress", "Shopify", "WooCommerce", "Webflow", "Framer", "Wix"],
+  },
+  {
+    id: "custom-code-systems",
+    category: "Full-Stack Engineering",
+    title: "Custom Web & Scalable System Engineering",
+    badge: "100% Custom Code",
+    bestFor: "Complex web apps, proprietary business logic & high-traffic platforms",
+    desc: "Engineered from scratch for businesses requiring unique features, high concurrent user handling, and performance that drag-and-drop platforms cannot deliver. Clean architecture, independent databases, and unlimited scalability.",
+    features: [
+      "Custom business logic tailored 100% to your unique operations",
+      "High-traffic resilience capable of handling thousands of concurrent users",
+      "Independent database architecture with full privacy and zero vendor lock-in",
+      "Robust REST & gRPC APIs ready for multi-platform integration"
+    ],
+    platforms: ["React / Next.js", "Golang", ".NET", "Python", "Node.js", "PostgreSQL", "Redis", "RabbitMQ", "Docker"],
+  },
+  {
+    id: "it-business-analysis",
+    category: "Strategy & Specifications",
+    title: "IT Business Analysis (BA) & System Design",
+    badge: "Architecture Blueprints",
+    bestFor: "Businesses planning software, platforms & digital workflows",
+    desc: "Bridge the gap between business vision and technical execution. We elicit, analyze, and document your exact requirements before coding starts — eliminating costly misunderstandings, scope creep, and wasted development budgets.",
+    features: [
+      "Comprehensive Software Requirement Specifications (BRD, SRS, User Stories)",
+      "Operational workflow & business process mapping (BPMN 2.0)",
+      "Database schema architecture (ERD) & standardized API specifications",
+      "Technology evaluation and cost-effective project roadmap planning"
+    ],
+    platforms: ["Business Analysis (BRD/SRS)", "BPMN Modeling", "ERD Design", "API Specs", "Jira / Figma"],
+  },
+  {
+    id: "ai-workflow-automation",
+    category: "AI & Process Automation",
+    title: "AI Integration & Workflow Automation",
+    badge: "24/7 Smart Operations",
+    bestFor: "Companies looking to eliminate manual tasks & automate 24/7 customer sales",
+    desc: "Automate repetitive daily tasks and boost revenue with intelligent AI agents and cross-platform integrations. From 24/7 customer consultation to automated order syncing across communication channels.",
+    features: [
+      "24/7 AI-powered customer service chatbots trained on your products and FAQs",
+      "Automated lead and order notifications (Telegram, Zalo, Google Sheets)",
+      "Cross-platform workflow automation (n8n, Zapier) saving manual labor",
+      "Automated inventory and multi-channel data synchronization"
+    ],
+    platforms: ["AI Chatbots (Gemini/OpenAI)", "n8n", "Zapier", "Webhooks", "Google Sheets"],
+  }
+];
+
+export { Info, SkillInfo, ProjectInfo, ExperienceInfo, ServiceInfo };
+
